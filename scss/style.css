@@ -156,8 +156,7 @@ body {
   border: #000000; }
 
 .body-oval-main {
-  background: linear-gradient(to right, #429321, #b4ec51);
-  padding-top: 20px; }
+  background: linear-gradient(to right, #429321, #b4ec51);}
 
 .body-list-oval {
   align-items: center;
@@ -173,7 +172,7 @@ body {
     text-align: center;
     color: #ffffff;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 12px 12px;
     display: flex; }
   .body-oval .oval-inform {
