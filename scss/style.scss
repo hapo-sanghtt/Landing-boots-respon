@@ -1,20 +1,8 @@
-$font-family: roboto-regular;
-$font-style: roboto-light;
-$color-white: #ffffff;
-$color-green: #8bc34a;
-$color-black: #000000;
-$background: linear-gradient(to right, #429321, #b4ec51);
-$box-shadow: 0 2px 4px 0 #d8d8d8;
-
 body {
   max-width: 100%;
-  font-family: $font-family;
+  font-family: roboto-regular;
   overflow-x: hidden;
   margin: auto;
-}
-
-.flex {
-  display: flex;
 }
 
 .banner-button {
@@ -26,20 +14,20 @@ body {
   color: #39474e;
   padding: 10px 20px 0 0;
   font: {
-    family: $font-family;
+    family: roboto-regular;
   }
   float: left;
 }
 
 .btn-sign-in {
-  border: 2px solid $color-green;
+  border: 2px solid #8bc34a;
   border-radius: 100px;
   text-transform: uppercase;
-  color: $color-green;
+  color: #8bc34a;
   min-width: 100px;
   height: 40px;
   font: {
-    family: $font-family;
+    family: roboto-regular;
   }
 }
 
@@ -78,20 +66,20 @@ body {
     padding: 10px 30px;
     width: 160px;
     height: 40px;
-    background: $background;
-    color: $color-white;
+    background: linear-gradient(to right, #429321, #b4ec51);
+    color: #ffffff;
     font-size: 13px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 2px 4px 0 #d8d8d8;
     text-transform: uppercase;
     border-radius: 100px;
     letter-spacing: 1.33pt;
-    border: $color-black;
+    border: #000000;
   }
 }
 
 .paragraph-til {
   border: 1px solid #d8d8d8;
-  background-color: $color-white;
+  background-color: #ffffff;
   min-height: 480px;
 }
 
@@ -100,14 +88,14 @@ body {
     padding: 10px 30px;
     width: 160px;
     height: 40px;
-    background: $background;
-    color: $color-white;
+    background: linear-gradient(to right, #429321, #b4ec51);
+    color: #ffffff;
     font-size: 13px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 2px 4px 0 #d8d8d8;
     text-transform: uppercase;
     border-radius: 100px;
     letter-spacing: 1.33pt;
-    border: $color-black;
+    border: #000000;
   }
 }
 
@@ -117,7 +105,7 @@ body {
   }
   font: {
     size: 12px;
-    style: $font-family;
+    style: roboto-regular;
     weight: 400;
   }
   text-align: justify;
@@ -138,12 +126,13 @@ body {
 .paragraph-img {
   img {
     width: 100%;
+    height: 419px;
   }
 }
 
 .paragraph-dl {
   border: 1px solid #d8d8d8;
-  background-color: $color-white;
+  background-color: #ffffff;
   min-height: 480px;
 }
 
@@ -160,7 +149,7 @@ body {
   }
   font: {
     size: 12px;
-    style: $font-family;
+    style: roboto-regular;
     weight: 400;
   }
   text-align: justify;
@@ -183,19 +172,19 @@ body {
     padding: 10px 30px;
     width: 160px;
     height: 40px;
-    background: $background;
-    color: $color-white;
+    background: linear-gradient(to right, #429321, #b4ec51);
+    color: #ffffff;
     font-size: 13px;
-    box-shadow: $box-shadow;
+    box-shadow: 0 2px 4px 0 #d8d8d8;
     text-transform: uppercase;
     border-radius: 100px;
     letter-spacing: 1.33pt;
-    border: $color-black;
+    border: #000000;
   }
 }
 
 .body-oval-main {
-  background: $background;
+  background: linear-gradient(to right, #429321, #b4ec51);
 }
 
 .body-list-oval {
@@ -212,7 +201,7 @@ body {
       transform: uppercase;
       align: center;
     }
-    color: $color-white;
+    color: #ffffff;
     letter-spacing: 1px;
     font-size: 14px;
     padding: 12px 12px;
@@ -223,22 +212,22 @@ body {
     flex-direction: column;
 
     .oval-icon {
-      border: 2px solid $color-white;
+      border: 2px solid #ffffff;
       padding-top: 16px;
       border-radius: 100%;
       height: 80px;
       width: 80px;
-      color: $color-white;
+      color: #ffffff;
       font-size: 36px;
     }
 
     .oval-small {
       background-color: #7cb342;
-      border: 2px solid $color-white;
+      border: 2px solid #ffffff;
       border-radius: 100%;
       width: 36px;
       height: 36px;
-      color: $color-white;
+      color: #ffffff;
       font-size: 20px;
       margin: -20px 0 0 22px;
     }
@@ -266,7 +255,7 @@ body {
 }
 
 .members-doc i {
-  color: $color-green;
+  color: #8bc34a;
   padding-top: 5px;
   font-size: 15px;
 }
@@ -284,10 +273,10 @@ body {
 
 .our-customers {
   font: {
-    style: $font-style;
+    style: roboto-light;
     size: 36px;
   }
-  color: $color-white;
+  color: #ffffff
 }
 
 .avatar-img {
@@ -299,7 +288,7 @@ body {
     }
 
     .duongnt {
-      color: $color-white;
+      color: #ffffff;
       font-size: 11px;
       padding: 10px;
       text-align: center;
@@ -310,7 +299,7 @@ body {
 .our-customers-oval {
   padding-top: 20px;
   .our-cus-oval {
-    background-color: $color-white;
+    background-color: #ffffff;
     border-radius: 100%;
     width: 8px;
     height: 8px;
@@ -381,7 +370,7 @@ body {
 }
 
 .get-in-touch {
-  color: $color-green;
+  color: #8bc34a;
   grid-column: 2;
 }
 
@@ -396,7 +385,7 @@ body {
 }
 
 .learn-more {
-  color: $color-green;
+  color: #8bc34a;
   grid-column: 3;
   grid-row: 1;
 }
@@ -413,7 +402,7 @@ body {
 }
 
 .how-to-works {
-  color: $color-green;
+  color: #8bc34a;
   grid-column: 4;
   grid-row: 1;
 }
@@ -430,7 +419,7 @@ body {
 }
 
 .legal {
-  color: $color-green;
+  color: #8bc34a;
   grid-column: 5;
   grid-row: 1;
 }
@@ -448,7 +437,7 @@ body {
 
 .mask-icon {
   min-width: 120px;
-  color: $color-green;
+  color: #8bc34a;
   padding-top: 10px;
   display: flex;
 
@@ -457,4 +446,4 @@ body {
   }
 }
 
-@import 'responsive.scss';
+@import 'responsive'
