@@ -102,8 +102,7 @@ body {
   padding-left: 14px; }
 
 .paragraph-img img {
-  width: 100%;
-  height: 419px; }
+  width: 100%; }
 
 .paragraph-dl {
   border: 1px solid #d8d8d8;
@@ -365,6 +364,7 @@ body {
     grid-row: 2/3; }
 
   .paragraph-doc {
+    font-size: 12px;
     line-height: 21px;
     padding: 10px 0 10px 15px;
     grid-column: 2;
@@ -494,10 +494,10 @@ body {
 
   .banner-icon {
     font-size: 30px;
-    padding: 10px 10% 10px 10%; }
+    padding: 10px 5% 10px 5%; }
 
   .paragraph-til {
-    padding: 20px 10% 20px 10%; }
+    padding: 20px 5% 20px 5%; }
 
   .paragraph-img {
     width: 50%;
@@ -515,7 +515,7 @@ body {
     padding-left: 20px; }
 
   .paragraph-doc {
-    line-height: 18px;
+    line-height: 22px;
     padding: 10px; }
 
   .paragraph-start-now {
@@ -523,7 +523,7 @@ body {
     justify-content: center; }
 
   .paragraph-dl {
-    padding: 20px 10% 20px 10%; }
+    padding: 20px 5% 20px 5%; }
 
   .paragraph-dl-icon {
     padding-top: 20px;
@@ -536,13 +536,13 @@ body {
 
   .paragraph-dl-img {
     width: 50%;
-    height: 300px;
-    padding: 10px; }
+    height: 354px;
+    padding: 15px 10px 10px 10px; }
 
   .paragraph-dl-doc {
     width: 50%;
-    line-height: 16px;
-    padding: 5px 10px 0 10px;
+    line-height: 20px;
+    padding: 10px 10px 0 10px;
     float: left; }
 
   .paragraph-dl-start-now {
@@ -550,13 +550,13 @@ body {
     padding-top: 20px; }
 
   .members-doc p {
-    line-height: 16px; }
+    line-height: 20px; }
 
   .body-our-customers {
-    padding: 20px 10% 20px 10%; }
+    padding: 20px 5% 20px 5%; }
 
   .body-list-oval {
-    padding: 30px 10% 0 10%;
+    padding: 30px 5% 0 5%;
     height: 220px; }
 
   .avatar {
@@ -567,7 +567,7 @@ body {
 
   .footer-mask {
     font-size: 10px;
-    padding: 30px 10% 10px 10%; } }
+    padding: 30px 5% 10px 5%; } }
 @media only screen and (max-width: 573px) {
   .header-page {
     background-image: url(../image-mb/rectangle.png);
