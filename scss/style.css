@@ -1,3 +1,12 @@
+@font-face {
+  src: url(../font/Roboto-Italic.ttf);
+  font-family: roboto-italic; }
+@font-face {
+  src: url(../font/Roboto-Light.ttf);
+  font-family: roboto-iight; }
+@font-face {
+  src: url(../font/Roboto-Regular.ttf);
+  font-family: roboto-regular; }
 body {
   max-width: 100%;
   font-family: roboto-regular;
@@ -652,14 +661,5 @@ body {
   .contact-hapo {
     grid-column: 5;
     grid-row: 4; } }
-@font-face {
-  src: url(../font/Roboto-Italic.ttf);
-  font-family: roboto-italic; }
-@font-face {
-  src: url(../font/Roboto-Light.ttf);
-  font-family: roboto-iight; }
-@font-face {
-  src: url(../font/Roboto-Regular.ttf);
-  font-family: roboto-regular; }
 
 /*# sourceMappingURL=style.css.map */
