@@ -20,20 +20,11 @@ body {
 .btn-sign-in {
   border: 2px solid #8bc34a;
   border-radius: 100px;
-  text-align: center;
   text-transform: uppercase;
   color: #8bc34a;
   min-width: 100px;
   height: 40px;
   font-family: roboto-regular; }
-
-.banner-logo {
-  text-align: center;
-  justify-content: center; }
-
-.banner-icon {
-  justify-content: center;
-  align-items: center; }
 
 .header-page {
   background-image: url(../image/banner.png);
@@ -53,14 +44,11 @@ body {
     padding: 25px; }
 
 .banner-slogan {
-  text-align: center;
   font-size: 16px;
   padding-top: 10px; }
 
 .banner-start-now {
-  padding-top: 30px;
-  justify-content: center;
-  align-items: center; }
+  padding-top: 30px; }
   .banner-start-now .start-now {
     padding: 10px 30px;
     width: 160px;
@@ -71,13 +59,10 @@ body {
     box-shadow: 0 2px 4px 0 #d8d8d8;
     text-transform: uppercase;
     border-radius: 100px;
-    justify-content: center;
     letter-spacing: 1.33pt;
     border: #000000; }
 
 .paragraph-til {
-  justify-content: space-between;
-  align-items: center;
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   min-height: 480px; }
@@ -92,7 +77,6 @@ body {
   box-shadow: 0 2px 4px 0 #d8d8d8;
   text-transform: uppercase;
   border-radius: 100px;
-  justify-content: center;
   letter-spacing: 1.33pt;
   border: #000000; }
 
@@ -115,8 +99,6 @@ body {
   width: 100%; }
 
 .paragraph-dl {
-  justify-content: space-between;
-  align-items: center;
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
   min-height: 480px; }
@@ -151,7 +133,6 @@ body {
   box-shadow: 0 2px 4px 0 #d8d8d8;
   text-transform: uppercase;
   border-radius: 100px;
-  justify-content: center;
   letter-spacing: 1.33pt;
   border: #000000; }
 
@@ -159,9 +140,7 @@ body {
   background: linear-gradient(to right, #429321, #b4ec51); }
 
 .body-list-oval {
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20% 0 20%;
+  padding: 30px 20% 0 20%;
   height: 260px; }
 
 .body-oval {
@@ -176,19 +155,15 @@ body {
     padding: 12px 12px;
     display: flex; }
   .body-oval .oval-inform {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: column; }
     .body-oval .oval-inform .oval-icon {
       border: 2px solid #ffffff;
+      padding-top: 16px;
       border-radius: 100%;
       height: 80px;
       width: 80px;
       color: #ffffff;
-      font-size: 36px;
-      justify-content: center;
-      align-items: center; }
+      font-size: 36px; }
     .body-oval .oval-inform .oval-small {
       background-color: #7cb342;
       border: 2px solid #ffffff;
@@ -197,9 +172,7 @@ body {
       height: 36px;
       color: #ffffff;
       font-size: 20px;
-      margin-top: -20px;
-      justify-content: center;
-      align-items: center; }
+      margin: -20px 0 0 22px; }
     .body-oval .oval-inform .ti {
       font-size: 30px; }
 
@@ -226,34 +199,26 @@ body {
   min-height: 400px;
   width: 100%;
   padding: 0 20% 0 20%;
-  border: 1px solid #c7c4c4;
-  flex-direction: column;
-  justify-content: space-between; }
+  border: 1px solid #c7c4c4; }
 
 .our-customers {
   font-style: roboto-light;
   font-size: 36px;
-  color: #ffffff;
-  text-align: center; }
+  color: #ffffff; }
 
 .avatar-img {
-  justify-content: space-between;
-  align-items: center; }
-  .avatar-img .avatar {
-    flex-direction: column;
-    justify-content: center; }
-    .avatar-img .avatar img {
-      width: 60px;
-      height: 60px; }
-    .avatar-img .avatar .duongnt {
-      color: #ffffff;
-      font-size: 11px;
-      padding: 10px;
-      text-align: center; }
+  padding-top: 20px; }
+  .avatar-img .avatar img {
+    width: 60px;
+    height: 60px; }
+  .avatar-img .avatar .duongnt {
+    color: #ffffff;
+    font-size: 11px;
+    padding: 10px;
+    text-align: center; }
 
 .our-customers-oval {
-  display: flex;
-  justify-content: center; }
+  padding-top: 20px; }
   .our-customers-oval .our-cus-oval {
     background-color: #ffffff;
     border-radius: 100%;
@@ -268,11 +233,8 @@ body {
     margin-left: 23px; }
 
 .body-our-customers-doc {
-  justify-content: center;
-  align-items: flex-start;
   min-width: 600px;
   padding-top: 10px;
-  align-content: space-between;
   margin-bottom: 20px; }
   .body-our-customers-doc i {
     padding-right: 15px;
@@ -284,7 +246,6 @@ body {
     font-size: 10pt;
     line-height: 25px;
     padding-top: 10px;
-    text-align: justify;
     color: #a7a2a2;
     width: 530px; }
   .body-our-customers-doc .ti-quote-right {
@@ -366,8 +327,6 @@ body {
   align-self: start; }
 
 .mask-icon {
-  align-self: start;
-  justify-content: space-between;
   min-width: 120px;
   color: #8bc34a;
   padding-top: 10px;
@@ -498,7 +457,7 @@ body {
     height: 220px; }
 
   .body-list-oval {
-    padding: 0 15% 0 15%; }
+    padding: 20px 15% 0 15%; }
 
   .body-our-customers {
     padding: 20px 15% 20px 15%; }
@@ -544,18 +503,17 @@ body {
     justify-content: center; }
 
   .paragraph-slogan {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     padding-left: 20px; }
 
   .paragraph-doc {
-    text-align: justify;
-    line-height: 22px;
+    line-height: 18px;
     padding: 10px; }
 
   .paragraph-start-now {
-    justify-content: center;
-    padding-left: 20px; }
+    padding-left: 20px;
+    justify-content: center; }
 
   .paragraph-dl {
     padding: 20px 10% 20px 10%; }
@@ -565,7 +523,7 @@ body {
     justify-content: center; }
 
   .paragraph-dl-slogan {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     padding-left: 20px; }
 
@@ -575,9 +533,8 @@ body {
     padding: 10px; }
 
   .paragraph-dl-doc {
-    text-align: justify;
     width: 50%;
-    line-height: 20px;
+    line-height: 16px;
     padding: 5px 10px 0 10px;
     float: left; }
 
@@ -586,13 +543,14 @@ body {
     padding-top: 20px; }
 
   .members-doc p {
-    line-height: 20px; }
+    line-height: 16px; }
 
   .body-our-customers {
     padding: 20px 10% 20px 10%; }
 
   .body-list-oval {
-    padding: 0 10% 0 10%; }
+    padding: 30px 10% 0 10%;
+    height: 220px; }
 
   .avatar {
     padding-left: 12px; }
@@ -623,10 +581,8 @@ body {
   .banner-slogan {
     font-size: 12px; }
 
-  .banner-logo {
-    justify-content: center; }
-    .banner-logo img {
-      max-width: 26%; }
+  .banner-logo img {
+    max-width: 26%; }
 
   .start-now {
     padding: 10px 30px;

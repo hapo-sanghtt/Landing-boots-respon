@@ -34,7 +34,6 @@ body {
 .btn-sign-in {
   border: 2px solid $color-green;
   border-radius: 100px;
-  text-align: center;
   text-transform: uppercase;
   color: $color-green;
   min-width: 100px;
@@ -42,16 +41,6 @@ body {
   font: {
     family: $font-family;
   }
-}
-
-.banner-logo {
-  text-align: center;
-  justify-content: center;
-}
-
-.banner-icon {
-  justify-content: center;
-  align-items: center;
 }
 
 .header-page {
@@ -79,15 +68,12 @@ body {
 }
 
 .banner-slogan {
-  text-align: center;
   font-size: 16px;
   padding-top: 10px;
 }
 
 .banner-start-now {
   padding-top: 30px;
-  justify-content: center;
-  align-items: center;
   .start-now {
     padding: 10px 30px;
     width: 160px;
@@ -98,15 +84,12 @@ body {
     box-shadow: $box-shadow;
     text-transform: uppercase;
     border-radius: 100px;
-    justify-content: center;
     letter-spacing: 1.33pt;
     border: $color-black;
   }
 }
 
 .paragraph-til {
-  justify-content: space-between;
-  align-items: center;
   border: 1px solid #d8d8d8;
   background-color: $color-white;
   min-height: 480px;
@@ -123,7 +106,6 @@ body {
     box-shadow: $box-shadow;
     text-transform: uppercase;
     border-radius: 100px;
-    justify-content: center;
     letter-spacing: 1.33pt;
     border: $color-black;
   }
@@ -160,8 +142,6 @@ body {
 }
 
 .paragraph-dl {
-  justify-content: space-between;
-  align-items: center;
   border: 1px solid #d8d8d8;
   background-color: $color-white;
   min-height: 480px;
@@ -209,7 +189,6 @@ body {
     box-shadow: $box-shadow;
     text-transform: uppercase;
     border-radius: 100px;
-    justify-content: center;
     letter-spacing: 1.33pt;
     border: $color-black;
   }
@@ -220,9 +199,7 @@ body {
 }
 
 .body-list-oval {
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 20% 0 20%;
+  padding: 30px 20% 0 20%;
   height: 260px;
 }
 
@@ -243,20 +220,16 @@ body {
   }
 
   .oval-inform {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     .oval-icon {
       border: 2px solid $color-white;
+      padding-top: 16px;
       border-radius: 100%;
       height: 80px;
       width: 80px;
       color: $color-white;
       font-size: 36px;
-      justify-content: center;
-      align-items: center;
     }
 
     .oval-small {
@@ -267,9 +240,7 @@ body {
       height: 36px;
       color: $color-white;
       font-size: 20px;
-      margin-top: -20px;
-      justify-content: center;
-      align-items: center;
+      margin: -20px 0 0 22px;
     }
 
     .ti {
@@ -309,8 +280,6 @@ body {
   width: 100%;
   padding: 0 20% 0 20%;
   border: 1px solid #c7c4c4;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .our-customers {
@@ -319,16 +288,11 @@ body {
     size: 36px;
   }
   color: $color-white;
-  text-align: center;
 }
 
 .avatar-img {
-  justify-content: space-between;
-  align-items: center;
+  padding-top: 20px;
   .avatar {
-    flex-direction: column;
-    justify-content: center;
-
     img {
       width: 60px;
       height: 60px;
@@ -344,8 +308,7 @@ body {
 }
 
 .our-customers-oval {
-  display: flex;
-  justify-content: center;
+  padding-top: 20px;
   .our-cus-oval {
     background-color: $color-white;
     border-radius: 100%;
@@ -364,11 +327,8 @@ body {
 }
 
 .body-our-customers-doc {
-  justify-content: center;
-  align-items: flex-start;
   min-width: 600px;
   padding-top: 10px;
-  align-content: space-between;
   margin-bottom: 20px;
 
   i {
@@ -385,7 +345,6 @@ body {
     }
     line-height: 25px;
     padding-top: 10px;
-    text-align: justify;
     color: #a7a2a2;
     width: 530px;
   }
@@ -488,8 +447,6 @@ body {
 }
 
 .mask-icon {
-  align-self: start;
-  justify-content: space-between;
   min-width: 120px;
   color: $color-green;
   padding-top: 10px;
