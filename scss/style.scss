@@ -276,7 +276,7 @@ body {
     style: roboto-light;
     size: 36px;
   }
-  color: #ffffff
+  color: #ffffff;
 }
 
 .avatar-img {
@@ -362,7 +362,7 @@ body {
 
 .hapo-img {
   font-size: 10px;
-  
+
   img {
     width: 80px;
     height: 20px;
@@ -446,4 +446,6 @@ body {
   }
 }
 
-@import 'responsive'
+@import 'responsive';
+
+@import 'font';
