@@ -581,7 +581,8 @@ body {
     font-size: 13px; }
 
   .paragraph-doc .members-doc p {
-    line-height: 20px; }
+    line-height: 20px;
+    font-size: 13px; }
 
   .body-our-customers {
     padding: 20px 5% 20px 5%; }
