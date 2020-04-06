@@ -586,29 +586,40 @@ body {
   .header-page {
     background-image: url(../image-mb/rectangle.png);
     max-width: 100%;
-    min-height: 400px; }
+    height: 310px; }
+
+  .banner-button {
+    margin-right: 10px;
+    padding-top: 20px; }
 
   .about-us {
-    font-size: 12px; }
+    font-size: 10px; }
 
   .btn-sign-in {
-    height: 36px;
-    font-size: 12px; }
+    height: 33px;
+    font-size: 10px;
+    min-width: 80px; }
 
   .banner-icon {
     padding: 20px 5% 0 5%;
-    font-size: 26px; }
+    font-size: 20px; }
+    .banner-icon i {
+      padding: 15px; }
 
   .banner-slogan {
-    font-size: 12px; }
+    font-size: 12px;
+    padding-top: 1px; }
 
   .banner-logo img {
     max-width: 26%; }
 
-  .start-now {
-    padding: 10px 30px;
-    width: 160px;
-    height: 40px; }
+  .banner-start-now {
+    padding-top: 10px; }
+    .banner-start-now .start-now {
+      padding: 10px 20px;
+      width: 120px;
+      height: 35px;
+      font-size: 10px; }
 
   .paragraph-til {
     padding: 10px; }
