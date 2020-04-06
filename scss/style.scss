@@ -1,14 +1,14 @@
-@import 'font';
+@import "font";
 
 body {
   max-width: 100%;
   font-family: roboto-regular;
   overflow-x: hidden;
-  margin: auto;
 }
 
 .banner-button {
-  padding: 20px 10% 0 0;
+  padding-top: 30px;
+  margin-right: 180px;
 }
 
 .about-us {
@@ -25,7 +25,9 @@ body {
   border: 2px solid #8bc34a;
   border-radius: 100px;
   text-transform: uppercase;
+  text-align: center;
   color: #8bc34a;
+  padding-top: 8px;
   min-width: 100px;
   height: 40px;
   font: {
@@ -41,11 +43,7 @@ body {
     size: cover;
   }
   max-width: 100%;
-  height: 592px;
-}
-
-.banner-logo {
-  padding-top: 75px;
+  height: 660px;
 }
 
 .banner-icon {
@@ -82,7 +80,7 @@ body {
 .paragraph-til {
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
-  min-height: 480px;
+  min-height: 371px;
 }
 
 .paragraph-start-now {
@@ -115,12 +113,12 @@ body {
 
 .paragraph-icon {
   i {
-    font-size: 30px;
+    font-size: 26px;
     padding-top: 10px;
   }
 
   p {
-    font-size: 36px;
+    font-size: 30px;
     padding-left: 14px;
   }
 }
@@ -134,13 +132,13 @@ body {
 .paragraph-dl {
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
-  min-height: 480px;
+  min-height: 415px;
 }
 
 .paragraph-dl-img {
   img {
     width: 100%;
-    height: 300px;
+    height: 354px;
   }
   align-self: start;
 }
@@ -159,12 +157,12 @@ body {
 
 .paragraph-dl-icon {
   i {
-    font-size: 30px;
+    font-size: 26px;
     padding-top: 10px;
   }
 
   p {
-    font-size: 36px;
+    font-size: 30px;
     padding-left: 14px;
   }
 }
@@ -191,24 +189,12 @@ body {
 
 .body-list-oval {
   padding: 30px 20% 0 20%;
-  height: 260px;
+  height: 240px;
 }
 
 .body-oval {
   width: 90px;
   height: 160px;
-
-  p {
-    text: {
-      transform: uppercase;
-      align: center;
-    }
-    color: #ffffff;
-    letter-spacing: 1px;
-    font-size: 14px;
-    padding: 12px 12px;
-    display: flex;
-  }
 
   .oval-inform {
     flex-direction: column;
@@ -238,6 +224,18 @@ body {
       font-size: 30px;
     }
   }
+
+  .name-oval {
+    padding-top: 20px;
+    line-height: 5px;
+    text: {
+      transform: uppercase;
+      align: center;
+    }
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
 }
 
 .members-list-doc {
@@ -250,7 +248,7 @@ body {
     weight: 400;
     size: 12px;
   }
-  line-height: 20px;
+  line-height: 16px;
   text-align: justify;
   color: #283238;
   padding-left: 3%;
@@ -274,6 +272,7 @@ body {
 }
 
 .our-customers {
+  padding-top: 20px;
   font: {
     style: roboto-light;
     size: 36px;
@@ -292,8 +291,12 @@ body {
     .duongnt {
       color: #ffffff;
       font-size: 11px;
-      padding: 10px;
+      padding-top: 20px;
       text-align: center;
+      line-height: 1px;
+      small {
+        color: #c0c0c0;
+      }
     }
   }
 }
@@ -323,7 +326,6 @@ body {
   margin-bottom: 20px;
 
   i {
-    padding-right: 15px;
     text-align: justify;
     color: #5b5b5c;
     font-size: 48px;
@@ -334,14 +336,14 @@ body {
       weight: 300;
       size: 10pt;
     }
-    line-height: 25px;
-    padding-top: 10px;
-    color: #a7a2a2;
-    width: 530px;
+    line-height: 30px;
+    padding-top: 30px;
+    color: #d0d8dc;
+    width: 567px;
   }
 
   .ti-quote-right {
-    padding: 80px 0 0 15px;
+    padding-top: 88px;
   }
 }
 
@@ -448,4 +450,4 @@ body {
   }
 }
 
-@import 'responsive';
+@import "responsive";
