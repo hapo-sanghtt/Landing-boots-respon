@@ -10,11 +10,11 @@
 body {
   max-width: 100%;
   font-family: roboto-regular;
-  overflow-x: hidden;
-  margin: auto; }
+  overflow-x: hidden; }
 
 .banner-button {
-  padding: 20px 10% 0 0; }
+  padding-top: 30px;
+  margin-right: 180px; }
 
 .about-us {
   text-transform: uppercase;
@@ -27,7 +27,9 @@ body {
   border: 2px solid #8bc34a;
   border-radius: 100px;
   text-transform: uppercase;
+  text-align: center;
   color: #8bc34a;
+  padding-top: 8px;
   min-width: 100px;
   height: 40px;
   font-family: roboto-regular; }
@@ -38,10 +40,7 @@ body {
   background-position: center;
   background-size: cover;
   max-width: 100%;
-  height: 592px; }
-
-.banner-logo {
-  padding-top: 75px; }
+  height: 660px; }
 
 .banner-icon {
   font-size: 36px;
@@ -71,7 +70,7 @@ body {
 .paragraph-til {
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
-  min-height: 480px; }
+  min-height: 371px; }
 
 .paragraph-start-now .start-now {
   padding: 10px 30px;
@@ -95,10 +94,10 @@ body {
     width: 100%; }
 
 .paragraph-icon i {
-  font-size: 30px;
+  font-size: 26px;
   padding-top: 10px; }
 .paragraph-icon p {
-  font-size: 36px;
+  font-size: 30px;
   padding-left: 14px; }
 
 .paragraph-img img {
@@ -107,12 +106,13 @@ body {
 .paragraph-dl {
   border: 1px solid #d8d8d8;
   background-color: #ffffff;
-  min-height: 480px; }
+  min-height: 415px; }
 
 .paragraph-dl-img {
   align-self: start; }
   .paragraph-dl-img img {
-    width: 100%; }
+    width: 100%;
+    height: 354px; }
 
 .paragraph-dl-doc {
   font-size: 12px;
@@ -123,10 +123,10 @@ body {
     width: 100%; }
 
 .paragraph-dl-icon i {
-  font-size: 30px;
+  font-size: 26px;
   padding-top: 10px; }
 .paragraph-dl-icon p {
-  font-size: 36px;
+  font-size: 30px;
   padding-left: 14px; }
 
 .paragraph-dl-start-now .start-now {
@@ -147,19 +147,11 @@ body {
 
 .body-list-oval {
   padding: 30px 20% 0 20%;
-  height: 260px; }
+  height: 240px; }
 
 .body-oval {
   width: 90px;
   height: 160px; }
-  .body-oval p {
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
-    letter-spacing: 1px;
-    font-size: 14px;
-    padding: 12px 12px;
-    display: flex; }
   .body-oval .oval-inform {
     flex-direction: column; }
     .body-oval .oval-inform .oval-icon {
@@ -181,6 +173,14 @@ body {
       margin: -20px 0 0 22px; }
     .body-oval .oval-inform .ti {
       font-size: 30px; }
+  .body-oval .name-oval {
+    padding-top: 20px;
+    line-height: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 14px; }
 
 .members-list-doc {
   width: 100%; }
@@ -189,7 +189,7 @@ body {
   align-items: flex-start;
   font-weight: 400;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 16px;
   text-align: justify;
   color: #283238;
   padding-left: 3%; }
@@ -208,6 +208,7 @@ body {
   border: 1px solid #c7c4c4; }
 
 .our-customers {
+  padding-top: 20px;
   font-style: roboto-light;
   font-size: 36px;
   color: #ffffff; }
@@ -220,8 +221,11 @@ body {
   .avatar-img .avatar .duongnt {
     color: #ffffff;
     font-size: 11px;
-    padding: 10px;
-    text-align: center; }
+    padding-top: 20px;
+    text-align: center;
+    line-height: 1px; }
+    .avatar-img .avatar .duongnt small {
+      color: #c0c0c0; }
 
 .our-customers-oval {
   padding-top: 20px; }
@@ -243,19 +247,18 @@ body {
   padding-top: 10px;
   margin-bottom: 20px; }
   .body-our-customers-doc i {
-    padding-right: 15px;
     text-align: justify;
     color: #5b5b5c;
     font-size: 48px; }
   .body-our-customers-doc .our-customers-doc {
     font-weight: 300;
     font-size: 10pt;
-    line-height: 25px;
-    padding-top: 10px;
-    color: #a7a2a2;
-    width: 530px; }
+    line-height: 30px;
+    padding-top: 30px;
+    color: #d0d8dc;
+    width: 567px; }
   .body-our-customers-doc .ti-quote-right {
-    padding: 80px 0 0 15px; }
+    padding-top: 88px; }
 
 .footer-mask {
   height: 160px;
@@ -347,7 +350,7 @@ body {
     grid-template-columns: 1fr 1fr; }
 
   .paragraph-img {
-    min-height: 419px;
+    min-height: 371px;
     padding: 10px 15px 10px 0;
     align-self: start;
     grid-row: 1/5; }
@@ -379,7 +382,6 @@ body {
     grid-template-columns: 1fr 1fr; }
 
   .paragraph-dl-img {
-    min-height: 419px;
     padding: 10px 0 10px 15px;
     grid-column: 2;
     grid-row: 1/5; }
@@ -424,7 +426,7 @@ body {
     grid-row: 2/3; }
 
   .paragraph-doc {
-    line-height: 16px;
+    line-height: 20px;
     padding: 10px 0 10px 15px;
     grid-column: 2;
     grid-row: 3/3; }
@@ -470,34 +472,46 @@ body {
     padding: 20px 15% 20px 15%; }
 
   .body-our-customers-doc {
-    padding: 20px 15% 10px 15%; }
+    padding-top: 20px; }
 
   .footer-mask {
     padding: 20px 15% 20px 15%; } }
-@media (max-width: 768px) and (min-width: 574px) {
+@media (max-width: 768px) and (min-width: 576px) {
   .header-page {
-    background-image: url(../image-tb/rectangle.png); }
+    background-image: url(../image-tb/rectangle.png);
+    height: 425px; }
+
+  .banner-button {
+    padding-top: 30px;
+    margin-right: 10px; }
 
   .about-us {
     font-size: 12px; }
 
   .btn-sign-in {
-    font-size: 12px; }
+    font-size: 12px;
+    min-width: 90px;
+    height: 35px; }
 
-  .banner-logo {
-    padding-top: 20%; }
-    .banner-logo img {
-      width: 170px; }
+  .banner-logo img {
+    width: 160px; }
 
   .banner-slogan {
     font-size: 14px; }
 
   .banner-icon {
-    font-size: 30px;
-    padding: 10px 5% 10px 5%; }
+    font-size: 28px;
+    padding: 45px 10% 10px 10%; }
 
   .paragraph-til {
     padding: 20px 5% 20px 5%; }
+
+  .banner-start-now {
+    padding-top: 10px; }
+    .banner-start-now .start-now {
+      width: 130px;
+      font-size: 12px;
+      padding: 10px; }
 
   .paragraph-img {
     width: 50%;
@@ -515,7 +529,7 @@ body {
     padding-left: 20px; }
 
   .paragraph-doc {
-    line-height: 22px;
+    line-height: 24px;
     padding: 10px; }
 
   .paragraph-start-now {
@@ -568,36 +582,47 @@ body {
   .footer-mask {
     font-size: 10px;
     padding: 30px 5% 10px 5%; } }
-@media only screen and (max-width: 573px) {
+@media only screen and (max-width: 575px) {
   .header-page {
     background-image: url(../image-mb/rectangle.png);
     max-width: 100%;
-    min-height: 400px; }
+    height: 310px; }
+
+  .banner-button {
+    margin-right: 10px;
+    padding-top: 20px; }
 
   .about-us {
-    font-size: 12px; }
+    font-size: 10px; }
 
   .btn-sign-in {
-    height: 36px;
-    font-size: 12px; }
+    height: 33px;
+    font-size: 10px;
+    min-width: 80px; }
 
   .banner-icon {
     padding: 20px 5% 0 5%;
-    font-size: 26px; }
+    font-size: 20px; }
+    .banner-icon i {
+      padding: 15px; }
 
   .banner-slogan {
-    font-size: 12px; }
+    font-size: 12px;
+    padding-top: 1px; }
 
   .banner-logo img {
     max-width: 26%; }
 
-  .start-now {
-    padding: 10px 30px;
-    width: 160px;
-    height: 40px; }
+  .banner-start-now {
+    padding-top: 10px; }
+    .banner-start-now .start-now {
+      padding: 10px 20px;
+      width: 120px;
+      height: 35px;
+      font-size: 10px; }
 
   .paragraph-til {
-    padding: 10px 5% 10px 5%; }
+    padding: 10px; }
 
   .paragraph-icon {
     justify-content: center;
@@ -618,7 +643,7 @@ body {
     justify-content: center; }
 
   .paragraph-dl {
-    padding: 10px 5% 10px 5%; }
+    padding: 10px; }
 
   .paragraph-dl-icon {
     justify-content: center;
@@ -640,22 +665,23 @@ body {
     justify-content: center; }
 
   .body-our-customers {
-    padding: 20px 5% 0 5%; }
+    padding: 20px 10px 0 10px; }
 
   .body-our-customers-doc {
-    padding: 20px 5% 0 5%;
     min-width: 200px; }
+    .body-our-customers-doc .ti-quote-right {
+      padding-top: 120px; }
 
   .body-list-oval {
     height: 200px;
-    padding: 20px 5% 20px 5%; }
+    padding: 20px 10px 20px 10px; }
 
   .our-customers-oval-mini {
     padding-bottom: 20px; }
 
   .footer-mask {
     height: 200px;
-    padding: 20px 5% 20px 5%;
+    padding: 20px 10px 20px 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr; }
 
   .contact-hapo {

@@ -11,7 +11,7 @@
   }
 
   .paragraph-img {
-    min-height: 419px;
+    min-height: 371px;
     padding: 10px 15px 10px 0;
     align-self: start;
     grid-row: 1/5;
@@ -49,7 +49,6 @@
   }
 
   .paragraph-dl-img {
-    min-height: 419px;
     padding: 10px 0 10px 15px;
     grid-column: 2;
     grid-row: 1/5;
@@ -106,7 +105,7 @@
   }
 
   .paragraph-doc {
-    line-height: 16px;
+    line-height: 20px;
     padding: 10px 0 10px 15px;
     grid-column: 2;
     grid-row: 3/3;
@@ -164,7 +163,7 @@
   }
 
   .body-our-customers-doc {
-    padding: 20px 15% 10px 15%;
+    padding-top: 20px;
   }
 
   .footer-mask {
@@ -172,23 +171,29 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 574px) {
+@media (max-width: 768px) and (min-width: 576px) {
   .header-page {
     background-image: url(../image-tb/rectangle.png);
+    height: 425px;
   }
 
+  .banner-button {
+    padding-top: 30px;
+    margin-right: 10px;
+  }
   .about-us {
     font-size: 12px;
   }
 
   .btn-sign-in {
     font-size: 12px;
+    min-width: 90px;
+    height: 35px;
   }
 
   .banner-logo {
-    padding-top: 20%;
     img {
-      width: 170px;
+      width: 160px;
     }
   }
 
@@ -197,12 +202,21 @@
   }
 
   .banner-icon {
-    font-size: 30px;
-    padding: 10px 5% 10px 5%;
+    font-size: 28px;
+    padding: 45px 10% 10px 10%;
   }
 
   .paragraph-til {
     padding: 20px 5% 20px 5%;
+  }
+
+  .banner-start-now {
+    padding-top: 10px;
+    .start-now {
+      width: 130px;
+      font-size: 12px;
+      padding: 10px;
+    }
   }
 
   .paragraph-img {
@@ -224,7 +238,7 @@
   }
 
   .paragraph-doc {
-    line-height: 22px;
+    line-height: 24px;
     padding: 10px;
   }
 
@@ -293,29 +307,39 @@
   }
 }
 
-@media only screen and (max-width: 573px) {
+@media only screen and (max-width: 575px) {
   .header-page {
     background-image: url(../image-mb/rectangle.png);
     max-width: 100%;
-    min-height: 400px;
+    height: 310px;
+  }
+
+  .banner-button {
+    margin-right: 10px;
+    padding-top: 20px;
   }
 
   .about-us {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .btn-sign-in {
-    height: 36px;
-    font-size: 12px;
+    height: 33px;
+    font-size: 10px;
+    min-width: 80px;
   }
 
   .banner-icon {
     padding: 20px 5% 0 5%;
-    font-size: 26px;
+    font-size: 20px;
+    i {
+      padding: 15px;
+    }
   }
 
   .banner-slogan {
     font-size: 12px;
+    padding-top: 1px;
   }
 
   .banner-logo {
@@ -324,14 +348,18 @@
     }
   }
 
-  .start-now {
-    padding: 10px 30px;
-    width: 160px;
-    height: 40px;
+  .banner-start-now {
+    padding-top: 10px;
+    .start-now {
+      padding: 10px 20px;
+      width: 120px;
+      height: 35px;
+      font-size: 10px;
+    }
   }
 
   .paragraph-til {
-    padding: 10px 5% 10px 5%;
+    padding: 10px;
   }
 
   .paragraph-icon {
@@ -358,7 +386,7 @@
   }
 
   .paragraph-dl {
-    padding: 10px 5% 10px 5%;
+    padding: 10px;
   }
 
   .paragraph-dl-icon {
@@ -386,17 +414,19 @@
   }
 
   .body-our-customers {
-    padding: 20px 5% 0 5%;
+    padding: 20px 10px 0 10px;
   }
 
   .body-our-customers-doc {
-    padding: 20px 5% 0 5%;
     min-width: 200px;
+    .ti-quote-right {
+      padding-top: 120px;
+    }
   }
 
   .body-list-oval {
     height: 200px;
-    padding: 20px 5% 20px 5%;
+    padding: 20px 10px 20px 10px;
   }
 
   .our-customers-oval-mini {
@@ -405,7 +435,7 @@
 
   .footer-mask {
     height: 200px;
-    padding: 20px 5% 20px 5%;
+    padding: 20px 10px 20px 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
