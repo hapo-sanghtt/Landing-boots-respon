@@ -17,6 +17,10 @@
     grid-row: 1/5;
   }
 
+  .paragraph-logo {
+    padding-top: 90px;
+  }
+
   .paragraph-icon {
     grid-column: 2;
     grid-row: 1/2;
@@ -176,7 +180,7 @@
 }
 
 @media (max-width: 768px) and (min-width: 600px) {
-  .header {
+  .header-lp {
     background-image: url(../image-tb/rectangle.png);
     height: 425px;
   }
@@ -269,13 +273,13 @@
 
   .paragraph-dl-img {
     width: 50%;
-    height: 354px;
+    height: 420px;
     padding: 15px 10px 10px 10px;
   }
 
   .paragraph-dl-doc {
     p {
-      line-height: 25px;
+      line-height: 32px;
     }
     width: 50%;
     line-height: 20px;
@@ -288,7 +292,12 @@
     padding-top: 20px;
   }
 
-  .members-doc p {
+  .paragraph-dl-doc .members-doc p {
+    line-height: 25px;
+    font-size: 13px;
+  }
+
+  .paragraph-doc .members-doc p {
     line-height: 20px;
   }
 
@@ -316,7 +325,7 @@
 }
 
 @media only screen and (max-width: 599px) {
-  .header {
+  .header-lp {
     background-image: url(../image-mb/rectangle.png);
     max-width: 100%;
     height: 310px;
