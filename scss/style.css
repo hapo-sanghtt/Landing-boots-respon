@@ -358,6 +358,9 @@ body {
     align-self: start;
     grid-row: 1/5; }
 
+  .paragraph-logo {
+    padding-top: 90px; }
+
   .paragraph-icon {
     grid-column: 2;
     grid-row: 1/2;
@@ -558,7 +561,7 @@ body {
 
   .paragraph-dl-img {
     width: 50%;
-    height: 354px;
+    height: 420px;
     padding: 15px 10px 10px 10px; }
 
   .paragraph-dl-doc {
@@ -567,13 +570,17 @@ body {
     padding: 10px 10px 0 10px;
     float: left; }
     .paragraph-dl-doc p {
-      line-height: 25px; }
+      line-height: 32px; }
 
   .paragraph-dl-start-now {
     justify-content: center;
     padding-top: 20px; }
 
-  .members-doc p {
+  .paragraph-dl-doc .members-doc p {
+    line-height: 25px;
+    font-size: 13px; }
+
+  .paragraph-doc .members-doc p {
     line-height: 20px; }
 
   .body-our-customers {
