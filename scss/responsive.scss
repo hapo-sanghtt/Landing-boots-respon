@@ -73,6 +73,10 @@
     grid-column: 1;
     grid-row: 3/3;
   }
+
+  .our-customers-doc {
+    padding-top: 50px;
+  }
 }
 
 @media (max-width: 991px) and (min-width: 769px) {
@@ -312,6 +316,13 @@
 
   .body-our-customers-doc {
     min-width: 458px;
+    .our-customers-doc {
+      padding-top: 0;
+      width: 100%;
+    }
+    .ti-quote-right {
+      padding-top: 0;
+    }
   }
 
   .footer {
@@ -450,7 +461,7 @@
       padding: 0;
       width: 100%;
     }
-    
+
     .ti-quote-right {
       padding: 1px 0 0 90%;
     }
@@ -478,63 +489,63 @@
   .get-in-touch {
     grid-column: 1;
   }
-  
+
   .contact-us {
     grid-column: 1;
     align-self: end;
   }
-  
+
   .contact-sales {
     grid-column: 1;
     align-self: start;
   }
-  
+
   .learn-more {
     color: #8bc34a;
     grid-column: 2;
     grid-row: 2;
   }
-  
+
   .about-lm {
     grid-column: 2;
     grid-row: 3;
     align-self: end;
   }
-  
+
   .about-hapo-lm {
     grid-column: 2;
     align-self: start;
   }
-  
+
   .how-to-works {
     color: #8bc34a;
     grid-column: 3;
     grid-row: 2;
   }
-  
+
   .contact-htw {
     grid-column: 3;
     grid-row: 3;
     align-self: end;
   }
-  
+
   .about-htw {
     grid-column: 3;
     align-self: start;
   }
-  
+
   .legal {
     color: #8bc34a;
     grid-column: 4;
     grid-row: 2;
   }
-  
+
   .tos-legal {
     grid-column: 4;
     grid-row: 3;
     align-self: end;
   }
-  
+
   .pp-legal {
     grid-column: 4;
     align-self: start;
