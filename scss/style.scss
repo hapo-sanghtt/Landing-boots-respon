@@ -35,7 +35,7 @@ body {
   }
 }
 
-.header-lp {
+.header-ld {
   background: {
     image: url(../image/banner.png);
     repeat: no-repeat;
@@ -277,10 +277,7 @@ body {
 
 .our-customers {
   padding-top: 20px;
-  font: {
-    style: roboto-light;
-    size: 36px;
-  }
+  font-size: 30px;
   color: #ffffff;
 }
 
@@ -326,7 +323,7 @@ body {
 
 .body-our-customers-doc {
   min-width: 600px;
-  padding-top: 10px;
+  padding-top: 20px;
   margin-bottom: 20px;
 
   i {
@@ -344,6 +341,10 @@ body {
     padding-top: 30px;
     color: #d0d8dc;
     width: 567px;
+  }
+
+  .ti-quote-left {
+    padding-right: 10px;
   }
 
   .ti-quote-right {
