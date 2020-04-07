@@ -212,8 +212,7 @@ body {
 
 .our-customers {
   padding-top: 20px;
-  font-style: roboto-light;
-  font-size: 36px;
+  font-size: 30px;
   color: #ffffff; }
 
 .avatar-img {
@@ -247,7 +246,7 @@ body {
 
 .body-our-customers-doc {
   min-width: 600px;
-  padding-top: 10px;
+  padding-top: 20px;
   margin-bottom: 20px; }
   .body-our-customers-doc i {
     text-align: justify;
@@ -260,6 +259,8 @@ body {
     padding-top: 30px;
     color: #d0d8dc;
     width: 567px; }
+  .body-our-customers-doc .ti-quote-left {
+    padding-right: 10px; }
   .body-our-customers-doc .ti-quote-right {
     padding-top: 88px; }
 
@@ -527,7 +528,7 @@ body {
   .paragraph-img {
     width: 50%;
     height: 300px;
-    padding: 10px;
+    padding: 15px 10px 10px 0;
     float: left; }
 
   .paragraph-icon {
@@ -541,10 +542,11 @@ body {
 
   .paragraph-doc {
     line-height: 24px;
-    padding: 10px; }
+    height: 300px;
+    padding: 10px 0 10px 10px; }
 
   .paragraph-start-now {
-    padding-left: 20px;
+    padding-top: 20px;
     justify-content: center; }
 
   .paragraph-dl {
@@ -556,33 +558,27 @@ body {
 
   .paragraph-dl-slogan {
     font-size: 12px;
-    text-align: center;
-    padding-left: 20px; }
+    text-align: center; }
 
   .paragraph-dl-img {
     width: 50%;
-    height: 420px;
-    padding: 15px 10px 10px 10px; }
+    padding: 15px 0px 10px 10px; }
+    .paragraph-dl-img img {
+      height: 300px; }
 
   .paragraph-dl-doc {
     width: 50%;
-    line-height: 20px;
-    padding: 10px 10px 0 10px;
+    line-height: 26px;
+    height: 300px;
+    padding: 10px 10px 10px 0;
     float: left; }
-    .paragraph-dl-doc p {
-      line-height: 32px; }
+
+  .members-doc p {
+    line-height: 21px; }
 
   .paragraph-dl-start-now {
     justify-content: center;
     padding-top: 20px; }
-
-  .paragraph-dl-doc .members-doc p {
-    line-height: 25px;
-    font-size: 13px; }
-
-  .paragraph-doc .members-doc p {
-    line-height: 20px;
-    font-size: 13px; }
 
   .body-our-customers {
     padding: 20px 5% 20px 5%; }
