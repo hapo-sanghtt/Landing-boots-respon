@@ -23,7 +23,7 @@ body {
   font-family: roboto-regular;
   float: left; }
 
-.btn-sign-in {
+.sign-in {
   border: 2px solid #8bc34a;
   border-radius: 100px;
   text-transform: uppercase;
@@ -498,7 +498,7 @@ body {
   .about-us {
     font-size: 12px; }
 
-  .btn-sign-in {
+  .sign-in {
     font-size: 12px;
     min-width: 90px;
     height: 35px; }
@@ -609,7 +609,7 @@ body {
   .about-us {
     font-size: 10px; }
 
-  .btn-sign-in {
+  .sign-in {
     height: 33px;
     font-size: 10px;
     min-width: 80px; }
