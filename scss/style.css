@@ -264,7 +264,7 @@ body {
   .body-our-customers-doc .ti-quote-right {
     padding-top: 88px; }
 
-.footer-mask {
+.footer {
   height: 160px;
   background-color: #39474e;
   border: 1px solid #c7c4c4;
@@ -484,7 +484,7 @@ body {
   .body-our-customers-doc {
     padding-top: 20px; }
 
-  .footer-mask {
+  .footer {
     padding: 20px 15% 20px 15%; } }
 @media (max-width: 768px) and (min-width: 600px) {
   .header-ldp {
@@ -593,7 +593,7 @@ body {
   .body-our-customers-doc {
     min-width: 458px; }
 
-  .footer-mask {
+  .footer {
     font-size: 10px;
     padding: 30px 5% 10px 5%; } }
 @media only screen and (max-width: 599px) {
@@ -695,7 +695,7 @@ body {
   .our-customers-oval-mini {
     padding-bottom: 20px; }
 
-  .footer-mask {
+  .footer {
     height: 200px;
     padding: 20px 10px 20px 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr; }
