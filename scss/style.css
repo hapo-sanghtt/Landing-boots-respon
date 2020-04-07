@@ -145,7 +145,7 @@ body {
   letter-spacing: 1.33pt;
   border: #000000; }
 
-.body-oval-main {
+.body-main-oval {
   background: linear-gradient(to right, #429321, #b4ec51); }
 
 .body-list-oval {
@@ -472,7 +472,7 @@ body {
   .members-doc p {
     line-height: 12px; }
 
-  .body-oval-main {
+  .body-main-oval {
     height: 220px; }
 
   .body-list-oval {
@@ -528,7 +528,7 @@ body {
   .paragraph-img {
     width: 50%;
     height: 300px;
-    padding: 15px 10px 10px 0;
+    padding: 30px 10px 10px 0;
     float: left; }
 
   .paragraph-icon {
@@ -543,7 +543,7 @@ body {
   .paragraph-doc {
     line-height: 24px;
     height: 300px;
-    padding: 10px 0 10px 10px; }
+    padding: 25px 0 10px 10px; }
 
   .paragraph-start-now {
     padding-top: 20px;
@@ -562,7 +562,7 @@ body {
 
   .paragraph-dl-img {
     width: 50%;
-    padding: 15px 0px 10px 10px; }
+    padding: 30px 0px 10px 10px; }
     .paragraph-dl-img img {
       height: 300px; }
 
@@ -570,7 +570,7 @@ body {
     width: 50%;
     line-height: 26px;
     height: 300px;
-    padding: 10px 10px 10px 0;
+    padding: 25px 10px 10px 0;
     float: left; }
 
   .members-doc p {
@@ -649,10 +649,10 @@ body {
     text-align: center; }
 
   .paragraph-img {
-    padding-top: 20px; }
+    padding-top: 25px; }
 
   .paragraph-doc {
-    padding-top: 20px;
+    padding-top: 25px;
     line-height: 30px; }
 
   .paragraph-start-now {
@@ -670,11 +670,11 @@ body {
     text-align: center; }
 
   .paragraph-dl-doc {
-    padding-top: 20px;
+    padding-top: 25px;
     line-height: 30px; }
 
   .paragraph-dl-img {
-    padding-top: 20px; }
+    padding-top: 25px; }
 
   .paragraph-dl-start-now {
     padding-top: 20px;
