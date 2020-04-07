@@ -331,7 +331,7 @@
     margin-right: 10px;
     padding-top: 20px;
   }
-  
+
   .about-us {
     font-size: 10px;
   }
@@ -356,7 +356,7 @@
   }
 
   .banner-logo {
-    padding-top: 10px;
+    padding-top: 8px;
     img {
       max-width: 26%;
     }
@@ -366,9 +366,9 @@
     padding-top: 10px;
     .start-now {
       padding: 10px 20px;
-      width: 120px;
-      height: 35px;
-      font-size: 10px;
+      width: 144px;
+      height: 40px;
+      font-size: 12px;
     }
   }
 
@@ -396,6 +396,13 @@
   }
 
   .paragraph-start-now {
+    padding: 20px 0 20px 0;
+    .start-now {
+      padding: 10px 20px;
+      width: 144px;
+      height: 40px;
+      font-size: 12px;
+    }
     justify-content: center;
   }
 
@@ -423,18 +430,29 @@
   }
 
   .paragraph-dl-start-now {
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
     justify-content: center;
+    .start-now {
+      padding: 10px 20px;
+      width: 144px;
+      height: 40px;
+      font-size: 12px;
+    }
   }
 
   .body-our-customers {
-    padding: 20px 10px 0 10px;
+    padding: 0;
   }
 
   .body-our-customers-doc {
     min-width: 200px;
+    .our-customers-doc {
+      padding: 0;
+      width: 100%;
+    }
+    
     .ti-quote-right {
-      padding-top: 120px;
+      padding: 1px 0 0 90%;
     }
   }
 
@@ -453,8 +471,77 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
+  .hapo-img {
+    padding-bottom: 20px;
+  }
+
+  .get-in-touch {
+    grid-column: 1;
+  }
+  
+  .contact-us {
+    grid-column: 1;
+    align-self: end;
+  }
+  
+  .contact-sales {
+    grid-column: 1;
+    align-self: start;
+  }
+  
+  .learn-more {
+    color: #8bc34a;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .about-lm {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: end;
+  }
+  
+  .about-hapo-lm {
+    grid-column: 2;
+    align-self: start;
+  }
+  
+  .how-to-works {
+    color: #8bc34a;
+    grid-column: 3;
+    grid-row: 2;
+  }
+  
+  .contact-htw {
+    grid-column: 3;
+    grid-row: 3;
+    align-self: end;
+  }
+  
+  .about-htw {
+    grid-column: 3;
+    align-self: start;
+  }
+  
+  .legal {
+    color: #8bc34a;
+    grid-column: 4;
+    grid-row: 2;
+  }
+  
+  .tos-legal {
+    grid-column: 4;
+    grid-row: 3;
+    align-self: end;
+  }
+  
+  .pp-legal {
+    grid-column: 4;
+    align-self: start;
+  }
+
   .contact-hapo {
-    grid-column: 5;
-    grid-row: 4;
+    grid-column: 4;
+    grid-row: 5;
   }
 }
