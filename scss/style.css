@@ -245,7 +245,7 @@ body {
     margin-left: 23px; }
 
 .body-our-customers-doc {
-  min-width: 600px;
+  width: 100%;
   padding-top: 20px;
   margin-bottom: 20px; }
   .body-our-customers-doc .our-customers-doc {
@@ -406,7 +406,10 @@ body {
     padding: 10px 15px 10px 0;
     line-height: 21px;
     grid-column: 1;
-    grid-row: 3/3; } }
+    grid-row: 3/3; }
+
+  .our-customers-doc {
+    padding-top: 50px; } }
 @media (max-width: 991px) and (min-width: 769px) {
   .paragraph-til {
     padding: 20px 15% 20px 15%;
@@ -594,6 +597,11 @@ body {
 
   .body-our-customers-doc {
     min-width: 458px; }
+    .body-our-customers-doc .our-customers-doc {
+      padding-top: 0;
+      width: 100%; }
+    .body-our-customers-doc .ti-quote-right {
+      padding-top: 0; }
 
   .footer {
     font-size: 10px;
