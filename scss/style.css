@@ -23,7 +23,7 @@ body {
   font-family: roboto-regular;
   float: left; }
 
-.btn-sign-in {
+.sign-in {
   border: 2px solid #8bc34a;
   border-radius: 100px;
   text-transform: uppercase;
@@ -34,7 +34,7 @@ body {
   height: 40px;
   font-family: roboto-regular; }
 
-.header-ld {
+.header-ldp {
   background-image: url(../image/banner.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -145,7 +145,7 @@ body {
   letter-spacing: 1.33pt;
   border: #000000; }
 
-.body-oval-main {
+.body-main-oval {
   background: linear-gradient(to right, #429321, #b4ec51); }
 
 .body-list-oval {
@@ -264,7 +264,7 @@ body {
   .body-our-customers-doc .ti-quote-right {
     padding-top: 88px; }
 
-.footer-mask {
+.footer {
   height: 160px;
   background-color: #39474e;
   border: 1px solid #c7c4c4;
@@ -472,7 +472,7 @@ body {
   .members-doc p {
     line-height: 12px; }
 
-  .body-oval-main {
+  .body-main-oval {
     height: 220px; }
 
   .body-list-oval {
@@ -484,10 +484,10 @@ body {
   .body-our-customers-doc {
     padding-top: 20px; }
 
-  .footer-mask {
+  .footer {
     padding: 20px 15% 20px 15%; } }
 @media (max-width: 768px) and (min-width: 600px) {
-  .header-ld {
+  .header-ldp {
     background-image: url(../image-tb/rectangle.png);
     height: 425px; }
 
@@ -498,7 +498,7 @@ body {
   .about-us {
     font-size: 12px; }
 
-  .btn-sign-in {
+  .sign-in {
     font-size: 12px;
     min-width: 90px;
     height: 35px; }
@@ -528,7 +528,7 @@ body {
   .paragraph-img {
     width: 50%;
     height: 300px;
-    padding: 15px 10px 10px 0;
+    padding: 30px 10px 10px 0;
     float: left; }
 
   .paragraph-icon {
@@ -543,7 +543,7 @@ body {
   .paragraph-doc {
     line-height: 24px;
     height: 300px;
-    padding: 10px 0 10px 10px; }
+    padding: 25px 0 10px 10px; }
 
   .paragraph-start-now {
     padding-top: 20px;
@@ -562,7 +562,7 @@ body {
 
   .paragraph-dl-img {
     width: 50%;
-    padding: 15px 0px 10px 10px; }
+    padding: 30px 0px 10px 10px; }
     .paragraph-dl-img img {
       height: 300px; }
 
@@ -570,7 +570,7 @@ body {
     width: 50%;
     line-height: 26px;
     height: 300px;
-    padding: 10px 10px 10px 0;
+    padding: 25px 10px 10px 0;
     float: left; }
 
   .members-doc p {
@@ -593,11 +593,11 @@ body {
   .body-our-customers-doc {
     min-width: 458px; }
 
-  .footer-mask {
+  .footer {
     font-size: 10px;
     padding: 30px 5% 10px 5%; } }
 @media only screen and (max-width: 599px) {
-  .header-ld {
+  .header-ldp {
     background-image: url(../image-mb/rectangle.png);
     max-width: 100%;
     height: 310px; }
@@ -609,7 +609,7 @@ body {
   .about-us {
     font-size: 10px; }
 
-  .btn-sign-in {
+  .sign-in {
     height: 33px;
     font-size: 10px;
     min-width: 80px; }
@@ -649,10 +649,10 @@ body {
     text-align: center; }
 
   .paragraph-img {
-    padding-top: 20px; }
+    padding-top: 25px; }
 
   .paragraph-doc {
-    padding-top: 20px;
+    padding-top: 25px;
     line-height: 30px; }
 
   .paragraph-start-now {
@@ -670,11 +670,11 @@ body {
     text-align: center; }
 
   .paragraph-dl-doc {
-    padding-top: 20px;
+    padding-top: 25px;
     line-height: 30px; }
 
   .paragraph-dl-img {
-    padding-top: 20px; }
+    padding-top: 25px; }
 
   .paragraph-dl-start-now {
     padding-top: 20px;
@@ -695,7 +695,7 @@ body {
   .our-customers-oval-mini {
     padding-bottom: 20px; }
 
-  .footer-mask {
+  .footer {
     height: 200px;
     padding: 20px 10px 20px 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr; }

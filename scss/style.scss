@@ -21,7 +21,7 @@ body {
   float: left;
 }
 
-.btn-sign-in {
+.sign-in {
   border: 2px solid #8bc34a;
   border-radius: 100px;
   text-transform: uppercase;
@@ -35,7 +35,7 @@ body {
   }
 }
 
-.header-ld {
+.header-ldp {
   background: {
     image: url(../image/banner.png);
     repeat: no-repeat;
@@ -187,7 +187,7 @@ body {
   }
 }
 
-.body-oval-main {
+.body-main-oval {
   background: linear-gradient(to right, #429321, #b4ec51);
 }
 
@@ -352,7 +352,7 @@ body {
   }
 }
 
-.footer-mask {
+.footer {
   height: 160px;
   background-color: #39474e;
   border: 1px solid #c7c4c4;
